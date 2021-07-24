@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/LaylaRobot
-RUN git clone -b shiken https://github.com/QueenArzoo/LaylaRobot /root/LaylaRobot
-WORKDIR /root/LaylaRobot
+# Copy Python Requirements to /root/Hatsune_Miku
+RUN git clone -b shiken https://github.com/Rexinazor/Hatsune_Miku /root/Hatsune_Miku
+WORKDIR /root/Hatsune_Miku
 
-#Copy config file to /root/LaylaRobot/LaylaRobot
-COPY ./LaylaRobot/sample_config.py ./LaylaRobot/config.py* /root/LaylaRobot/LaylaRobot/
+#Copy config file to /root/Hatsune_Miku/Hatsune_Miku
+COPY ./Hatsune_Miku/sample_config.py ./Hatsune_Miku/config.py* /root/Hatsune_Miku/Hatsune_Miku/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","LaylaRobot"]
+CMD ["python3","-m","Hatsune_Miku"]
