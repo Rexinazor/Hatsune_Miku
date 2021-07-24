@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it 
-net stop LaylaRobot
-net start LaylaRobot
+net stop Hatsune_Miku
+net start Hatsune_Miku
