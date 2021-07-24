@@ -1,4 +1,4 @@
 @echo off
-TITLE Layla Robot
+TITLE Hatsune_Miku
 :: Enables virtual env mode and then starts Rika
-env\scripts\activate.bat && py -m LaylaRobot
+env\scripts\activate.bat && py -m Hatsune_Miku
