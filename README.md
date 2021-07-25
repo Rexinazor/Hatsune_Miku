@@ -1,4 +1,6 @@
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Rexinazor/Hatsune_Miku)
+[![Deploy](https://telegra.ph/file/aaa10262ebe6670eecf58.jpg)](https://heroku.com/deploy?template=https://github.com/Rexinazor/Hatsune_Miku)
+
+### Click Below Image to Deploy
 
 # Hatsune_Miku
 
