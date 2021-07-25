@@ -82,7 +82,7 @@ Maintained by @BioHazard_Bots
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add to your group ➕️", url="t.me/LaylaRobot?startgroup=true"),
+            text="➕️ Add to your group ➕️", url="t.me/Miku_Ro_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="Miku_"),
@@ -355,21 +355,18 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Hatsune Miku*, a powerful group management bot built to help you manage your group easily.
+            text=""" I'm *Hatsune Miku*, A Dynamic Anime themed Group Management bot to make your group managed!.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Layla's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Bots @LaylaList
-                 \n❍ Support Group @AwesomeSupport
-                 \n❍ Assistant @LaylaAssistant.
-                 \nHere is the [💾Repository](https://github.com/QueenArzoo/LaylaRobot).
-                 \n\nIf you have any question about Layla, let us know at .""",
+                 \n\n_Miku's licensed under the GNU General Public License v3.0_
+                 \n❍ Support Group @BHZBot_Support
+                 \n❍ Assistant Coming soon """,
             parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
+            disable_web_page_preview=True, 
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
@@ -393,8 +390,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Layla*
-                 \nHere is the [Source Code](https://github.com/QueenArzoo/LaylaRobot) .""",
+            text=""" Hi..🤗 I'm *Miku*
+                 \n Source code will be revealed soon .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -641,7 +638,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != {OWNER_ID} and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
