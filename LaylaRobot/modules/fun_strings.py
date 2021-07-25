@@ -123,7 +123,7 @@ SLAP_TEMPLATES = (
     "Round 2!..Ready? .. FIGHT!!",
     "WhoPixel will oof {user2} to infinity and beyond.",
     "{user2} ate a bat and discovered a new disease.",
-    "{user1} folded {user2} into a paper plane",
+    "{user1} ne {user2} ki maa chod di",
     "{user1} served {user2} some bat soup.",
     "{user2} was sent to his home, the planet of the apes.",
     "{user1} kicked {user2} out of a moving train.",
