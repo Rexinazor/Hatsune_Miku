@@ -73,7 +73,7 @@ def ban(update: Update, context: CallbackContext) -> str:
             )
         elif user_id in DEMONS:
             message.reply_text(
-                "Bring an order from Heroes association to fight a Demon disaster."
+                "Bring an order from BioHazard Network to fight a Demon disaster."
             )
         elif user_id in TIGERS:
             message.reply_text(
