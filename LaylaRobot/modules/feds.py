@@ -624,7 +624,7 @@ def fed_ban(update: Update, context: CallbackContext):
         message.reply_text("Wolves cannot be fed banned!")
         return
 
-    if user_id in [777000, 1087968824]:
+    if user_id in [1866542500]:
         message.reply_text("Fool! You can't attack Telegram's native tech!")
         return
 
