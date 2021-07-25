@@ -1,4 +1,4 @@
-[![Deploy](https://telegra.ph/file/aaa10262ebe6670eecf58.jpg)](https://heroku.com/deploy?template=https://github.com/Rexinazor/Hatsune_Miku)
+[![Deploy](https://telegra.ph/file/c0a87b8609381cfb50bb1.jpg)](https://heroku.com/deploy?template=https://github.com/Rexinazor/Hatsune_Miku)
 
 ### Click Below Image to Deploy
 
