@@ -85,34 +85,32 @@ buttons = [
             text="➕️ Add to your group ➕️", url="t.me/LaylaRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="layla_"),
+        InlineKeyboardButton(text="About", callback_data="Miku_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/laylalogs"),
+        InlineKeyboardButton(text="Logs", url=f"https://t.me/{EVENT_LOGS}"),
         InlineKeyboardButton(
-            text="ꜰᴇᴅᴇʀᴀᴛɪᴏɴ", url=f"https://t.me/AntiRippingOrganization/410"
+            text="Fedration", url=f"https://t.me/TheHazardNetwork"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'M` Layla
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
-Powered by :- [Awesome Bots](t.me/Laylalist)"""
+`Hi.. Am` Hatsune Miku
+`I am a Dynamic Anime themed Group Management bot to make your group managed!`
+Powered By :- [BioHazard Bots](t.me/BioHazard_Bots)"""
 
-layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
+layla_IMG = "https://telegra.ph/file/c0a87b8609381cfb50bb1.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Hero](t.me/HEROGAMERS1) \
- Supporting isnt always financial! [AwesomeSupport](t.me/LaylaList) \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+ But still we are not accepting these monetary donations, if you wanna donate you can join our fedration as donation."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -357,7 +355,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Layla*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Hatsune Miku*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
